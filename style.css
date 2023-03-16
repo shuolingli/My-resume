@@ -1,0 +1,36 @@
+body {
+  background-color: #f2efde;
+  color: #000000;
+  font-family: "Sono", sans-serif;
+  padding: 48px 64px;
+}
+.intro {
+  text-align: center;
+}
+.header {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.category {
+  color: rgba(0, 0, 255, 0.333);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.resume {
+  text-align: center;
+  font-size: 35px;
+}
+.col {
+  column-count: 3;
+}
+.right {
+  float: right;
+}
+.link:hover,
+.link active {
+  color: #3b82f6;
+}
